@@ -1,0 +1,20 @@
+{
+    "name": "std/net",
+    "description": "Standard networking from the std/lib Packages.  Require std/lib today.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "A.B. Carroll",
+            "email": "ben@hl9.net"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "std\\Net\\": "src/"
+        }
+    }
+}
